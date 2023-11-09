@@ -57,5 +57,12 @@ const apiKey = "8d97a369f6c0b293284aa24948b8c795";
         }
 searchBtn.addEventListener("click", function(){
     checkWeather(searchBox.value);
+
+    searchBtn.addEventListener("enter", function(){
+        checkWeather(searchBox.value);
+    })
+
+    
+
 })
         
